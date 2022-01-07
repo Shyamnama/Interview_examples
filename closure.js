@@ -8,14 +8,14 @@ function parent() {
 
 // parent();
 
-// for (var i = 1; i <= 5; i++) {
-//   function close(x) {
-//     setTimeout(() => {
-//       console.log(x);
-//     }, x * 1000);
-//   }
-//   close(i);
-// }
+for (var i = 1; i <= 5; i++) {
+  function close(x) {
+    setTimeout(() => {
+      console.log(x);
+    }, x * 1000);
+  }
+  close(i);
+}
 
 let x= {}, y = {name:"Ronny"},z = {name:"John"};
 

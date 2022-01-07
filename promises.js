@@ -30,21 +30,3 @@ const createPost = (post) => {
 createPost({ _id: 5, title: "Post 5", desc: "This is Post Five" })
   .then(getPosts)
   .catch((err) => console.log(err));
-
-// const createPost = (post) => {
-//   return new Promise((resolve, reject) => {
-//     setTimeout(() => {
-//       posts.push(post);
-//       const err = false;
-//       if (!err) {
-//         resolve();
-//       } else {
-//         reject("Error: Something went wrong");
-//       }
-//     }, 200);
-//   });
-// };
-
-// createPost({ _id: 5, title: "Post 5", desc: "This is Post Five" })
-//   .then(getPosts)
-//   .catch((err) => console.log(err));
